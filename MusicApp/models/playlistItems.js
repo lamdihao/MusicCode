@@ -11,6 +11,4 @@ const PlaylistItems = new Scheme({
 },{
     timestamps: true
 })
-
 module.exports = mongoose.model('playlistItem', PlaylistItems)
-
