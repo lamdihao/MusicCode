@@ -855,6 +855,7 @@ router.get('/get-coin/:user_id', async (req, res) => {
             });
         }
 
+        // Phản hồi coin khi người dùng thực hiện lệnh dùng coin 
         // Phản hồi chỉ với số coin
         res.json({
             status: 200,
